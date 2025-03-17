@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #004080;
+        }
+        .projects, .experience, .education, .reviews {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 5px solid #004080;
+            transition: background 0.3s;
+        }
+        .projects:hover, .experience:hover, .education:hover, .reviews:hover {
+            background: #e9f5ff;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        .button {
+            background: #004080;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #003366;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <h2>Frontend Developer</h2>
+    <p>HTML only with proper layout, no styling</p>
+</header>
+
+<div class="container">
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Work Experience</h2>
+        <h3>roadmap.sh</h3>
+        <p>Solved all the frontend projects.</p>
+        <button class="button" onclick="window.location.href='https://your-profile-link.com';">Visit My Profile</button>
+
+        <h3>OpenSource Work</h3>
+        <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
+        <button class="button" onclick="window.location.href='https://github.com/your-github';">Visit my GitHub Profile</button>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+        <h3>Courses I took:</h3>
+        <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+        </ul>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>Reviews from my Teachers</h2>
+        <p>John Doe was a brilliant student; always stood out with his assignments. </p>
+        <span>Jane Doe - Assistant Professor</span>
+        <br><br>
+        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+        <span>Jane Doe - Assistant Professor</span>
+        <br><br>
+        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+        <span>Jane Doe - Assistant Professor</span>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; All rights reserved 2025</p>
+</footer>
+
+</body>
+</html>
